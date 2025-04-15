@@ -12,6 +12,9 @@ import General_physician from './General_physician.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
 import down from './down.png'
+import banner1 from './banner1.jpg'
+import banner2 from './banner2.jpg'
+import banner3 from './banner3.jpg'
 
 
 export const assets = {
@@ -24,7 +27,10 @@ export const assets = {
     General_physician,
     Neurologist,
     Pediatricians,
-    down
+    down,
+    banner1,
+    banner2,
+    banner3
 }
 
 export const specialData = [
