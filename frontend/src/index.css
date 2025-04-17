@@ -25,3 +25,13 @@
         opacity: 0.231812;
     }
   }
+  ::-webkit-scrollbar{
+    @apply hidden
+  }
+
+ 
+
+  .top-doctors{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  }

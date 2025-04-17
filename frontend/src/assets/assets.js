@@ -15,7 +15,11 @@ import down from './down.png'
 import banner1 from './banner1.jpg'
 import banner2 from './banner2.jpg'
 import banner3 from './banner3.jpg'
-
+import right from './right.png'
+import banner from './banner.png'
+import Dermatologist from './Dermatologist.svg'
+import Gynecologist from './Gynecologist.svg'
+import right_arrow from './right_arrow.png'
 
 export const assets = {
     Vector,
@@ -30,34 +34,43 @@ export const assets = {
     down,
     banner1,
     banner2,
-    banner3
+    banner3,
+    right,
+    banner,
+    Dermatologist,
+    Gynecologist,
+    right_arrow
 }
 
 export const specialData = [
     {
-        specialist: 'General physician',
-        image: 'General physician'
+        specialist: 'Chest Medicine',
+        image: Dermatologist
         
     },
     {
-        specialist: 'Gynecologist',
-        image: 'Gynecologist'
+        specialist: 'Colorectal Surgeon',
+        image: Gynecologist
     },
     {
-        specialist: 'Dermatologist',
-        image: 'Dermatologist'
+        specialist: ' Medicine',
+        image: Dermatologist
     },
     {
-        specialist: 'Neurologist',
-        image: 'Neurologist'
+        specialist: 'ENT, Head & Neck Surgery',
+        image: Neurologist
     },
     {
-        specialist: 'Pediatricians',
-        image: 'Pediatricians'
+        specialist: 'Eye / Ophthalmology',
+        image: Pediatricians
     },
     {
         specialist: 'Gastroenterologist',
-        image: 'Gastroenterologist'
+        image: Gastroenterologist
+    },
+    {
+        specialist: 'Neuro Surgery',
+        image: Gastroenterologist
     }
 
 ]

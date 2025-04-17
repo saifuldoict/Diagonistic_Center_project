@@ -1,12 +1,16 @@
 import React from 'react'
 import Header from '../components/Header'
-import Slider from '../components/Slider/Slider'
+import SpecialtyMenu from '../components/SpecialtyMenu'
+import TopDoctor from '../components/TopDoctor'
+
 
 const Home = () => {
   return (
     <div>
-      <Slider/>
+     
       <Header/>
+      <SpecialtyMenu/>
+      <TopDoctor/>
     </div>
   )
 }

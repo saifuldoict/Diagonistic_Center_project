@@ -20,6 +20,7 @@ import OurServices from './pages/OurServices'
 import Marquee from './Marquee'
 import SampleCollectionFromHome from './pages/SampleCollectionFromHome'
 import VideoConsultancyDoctorAppointment from './pages/VideoConsultancyDoctorAppointment'
+import Slider from './components/Slider/Slider'
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
       <div className='mx-4 sm:mx-[10%]'>
         <Marquee/>
         <Navbar/>
+        <Slider/>
        <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
